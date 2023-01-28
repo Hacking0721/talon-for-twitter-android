@@ -25,7 +25,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Build Debug .apk
-      run: ./gradlew :talon-for-twitter:assembleDebug      
+      run: ./gradlew :talon-for-twitter-android:assembleDebug      
     - name: Upload APK
       uses: actions/upload-artifact@v2
       with:
